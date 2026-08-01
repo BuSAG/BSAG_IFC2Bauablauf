@@ -1,0 +1,110 @@
+﻿Schluessel;Wert
+Projekt-Nr;1234.56
+Projekt-Name;Testprojekt UC_Bauablauf
+Objektname;Testbrücke
+Firma;AN_UC_Bauablauf
+Plan-Nr;1234.56.001
+Bauherr;AG_UC_Bauablauf
+Bearbeiter;Bei / Web / Scs
+Index;0
+E-Mail;
+Sprache;de
+Export-Detailstufe;2
+Trennzeichen;","
+Auto-Verkettung;0
+Phasen-Offset global;0
+Praefix;UC_Bauablauf
+Raster;1x1
+Farbe current_build;#ff0000
+Farbe current_demolish;#fff90a
+Farbe already_built;#555555
+Farbe bestand;#999999
+Phasen-Modus;separator
+Trim Anfang;0
+Trim Ende;0
+Regex-Muster;
+Regex-Flags;g
+Regex-Ersetzung;
+Standard-Attribuierung;ja
+Filter ohne Phaseninfo;nein
+BCF-Draufsicht;nein
+GIF-Dauern;nein
+PSets;
+Bauphase-Properties;
+Rueckbau-Properties;
+Beschrieb Phase 4.32;Bau Decke Etappe 2 
+Dauer Phase 4.32;
+Beschrieb Phase 1;Durchführung Rodungsarbeiten
+Dauer Phase 1;2
+Beschrieb Phase 2;Aushub Trasse Strasse
+Dauer Phase 2;10
+Beschrieb Phase 3;Einbringung Fundationsschicht
+Dauer Phase 3;2
+Beschrieb Phase 4;Versetzen Randsteine in Sohlbeton
+Dauer Phase 4;3
+Beschrieb Phase 5;2026-07-06
+Dauer Phase 5;7.7
+Beschrieb Phase 6;Einbau Planie
+Dauer Phase 6;1
+Beschrieb Phase 7;2026-07-27 16:48
+Dauer Phase 7;0.7
+Beschrieb Phase 8;Montage FZRS und Aushub Widerlager
+Dauer Phase 8;5
+Beschrieb Phase 9;Erstellung Bodenplatte Widerlager
+Dauer Phase 9;5
+Beschrieb Phase 10;Erstellung Wände Widerlager
+Dauer Phase 10;5
+Beschrieb Phase 11;Schüttung Rampen Langsamverkehrsverbindung
+Dauer Phase 11;10
+Beschrieb Phase 12;Montage Brückenlager
+Dauer Phase 12;1
+Beschrieb Phase 13;Einhub Brücke Langsamverkehrsverbindung
+Dauer Phase 13;1
+Beschrieb Phase 14;Einbau Deckschicht Langsamverkehrsverbindung
+Dauer Phase 14;3
+Beschrieb Phase 15;Montage Geländer Widerlager Langsamverkehrsverbindung
+Dauer Phase 15;2
+Beschrieb Phase 16;2026-08-24 01:40
+Dauer Phase 16;6.86
+Beschrieb Phase 17;2026-08-24 03:21
+Dauer Phase 17;7
+Beschrieb Phase 18;2026-08-31
+Dauer Phase 18;7
+Beschrieb Phase 19;2026-09-07
+Dauer Phase 19;7
+Beschrieb Phase 20;Anlagen Oberboden Gesamtprojekt
+Dauer Phase 20;5
+Beschrieb Phase 21;Entfernung Baustelleneinrichtung
+Dauer Phase 21;2
+Beschrieb Phase 22;2026-10-26
+Dauer Phase 22;
+Beschrieb Phase 7.1+7.2+7.3;test
+Dauer Phase 7.1+7.2+7.3;1
+Beschrieb Phase 8.1;Erstellung Mikropfähle
+Dauer Phase 8.1;5
+Beschrieb Phase 10.5;Hinterfüllung Widerlager
+Dauer Phase 10.5;2
+Beschrieb Phase 11.01;Einbau Fundation Langsamverkehrsverbindung
+Dauer Phase 11.01;2
+Beschrieb Phase 11.02;Einbau Fundationsschicht Langsamverkehrsverbindung
+Dauer Phase 11.02;1
+Beschrieb Endzustand;Endzustand
+Dauer Endzustand;0
+Beschrieb Bestand;Bestand
+Dauer Bestand;0
+Beschrieb Phase 0.5;Einrichtung Baustelleninstallationen
+Dauer Phase 0.5;7
+Beschrieb Phase 7.1;Einbau Tragschicht 
+Dauer Phase 7.1;1
+Beschrieb Phase 7.2;Einbau Binderschicht Strasse
+Dauer Phase 7.2;1
+Beschrieb Phase 7.3;Einbau Deckschicht
+Dauer Phase 7.3;2
+Beschrieb Phase 8.5;Anlieferung und Montage Holzbau Nachbargebäude
+Dauer Phase 8.5;2
+Beschrieb Phase 12.5;Montage Schutzgerüst für Einhub Brücke Langsamverkehrsverbindung
+Dauer Phase 12.5;3
+Beschrieb Phase 20.5;Demontage Schutzgerüst Langsamverkehrsverbindung
+Dauer Phase 20.5;2
+Status;"{""enabled"":true,""source"":{""type"":""pset"",""psetName"":""CH_Ing_Uebergeordnet"",""propertyName"":""Status""},""statuses"":[{""value"":""Baustelleneinrichtung"",""label"":""Baustelleneinrichtung"",""hex"":""#9C27B0""},{""value"":""Bauhilfsmassnahme"",""label"":""Bauhilfsmassnahme"",""hex"":""#4CAF50""},{""value"":""Drittprojekt"",""label"":""Drittprojekt"",""hex"":""#2196F3""}]}"
+Viewpoint;"{""pos"":[26.10320797137528,37.13361020986511,65.14383281030686],""target"":[5.4234158702115645,-13.736297494592337,10.738063948107106],""up"":[0,1,0],""offset"":[39.99999988674536,2.0963878236570554,-39.999999795532226],""fov"":60}"

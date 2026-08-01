@@ -1,0 +1,245 @@
+{
+  "schema": "UC-Bauablauf-Projekt",
+  "version": 4,
+  "project": {
+    "number": "1234.56",
+    "name": "Testprojekt UC_Bauablauf",
+    "object": "Testbrücke",
+    "company": "AN_UC_Bauablauf",
+    "client": "AG_UC_Bauablauf",
+    "author": "Bei / Web / Scs",
+    "planNumber": "1234.56.001",
+    "planIndex": "0",
+    "email": ""
+  },
+  "language": "de",
+  "exportLevel": 2,
+  "phaseSeparator": ",",
+  "phaseParse": {
+    "mode": "separator",
+    "separator": ",",
+    "trimStart": 0,
+    "trimEnd": 0,
+    "regexPattern": "",
+    "regexFlags": "g",
+    "regexReplace": ""
+  },
+  "phaseManual": {},
+  "phaseChainStep": 0,
+  "phaseOffsetGlobal": 0,
+  "phaseOffsetPer": {},
+  "colors": {
+    "current_build": "#ff0000",
+    "current_demolish": "#fff90a",
+    "already_built": "#555555",
+    "bestand": "#999999"
+  },
+  "prefix": "UC_Bauablauf",
+  "topView": false,
+  "filterUnclassified": false,
+  "gifUseDurations": false,
+  "gridCols": 1,
+  "gridRows": 1,
+  "standard": true,
+  "attribution": {
+    "psets": [],
+    "propsBau": [],
+    "propsRueck": []
+  },
+  "status": {
+    "enabled": true,
+    "source": {
+      "type": "pset",
+      "psetName": "CH_Ing_Uebergeordnet",
+      "propertyName": "Status"
+    },
+    "statuses": [
+      {
+        "value": "Baustelleneinrichtung",
+        "label": "Baustelleneinrichtung",
+        "hex": "#9C27B0"
+      },
+      {
+        "value": "Bauhilfsmassnahme",
+        "label": "Bauhilfsmassnahme",
+        "hex": "#4CAF50"
+      },
+      {
+        "value": "Drittprojekt",
+        "label": "Drittprojekt",
+        "hex": "#2196F3"
+      }
+    ]
+  },
+  "annotations": {
+    "Phase 4.32": {
+      "description": "Bau Decke Etappe 2 "
+    },
+    "Phase 1": {
+      "description": "Durchführung Rodungsarbeiten",
+      "durationDays": 2
+    },
+    "Phase 2": {
+      "description": "Aushub Trasse Strasse",
+      "durationDays": 10
+    },
+    "Phase 3": {
+      "description": "Einbringung Fundationsschicht",
+      "durationDays": 2
+    },
+    "Phase 4": {
+      "description": "Versetzen Randsteine in Sohlbeton",
+      "durationDays": 3
+    },
+    "Phase 5": {
+      "durationDays": 7.7,
+      "description": "2026-07-06"
+    },
+    "Phase 6": {
+      "description": "Einbau Planie",
+      "durationDays": 1
+    },
+    "Phase 7": {
+      "durationDays": 0.7,
+      "description": "2026-07-27 16:48"
+    },
+    "Phase 8": {
+      "description": "Montage FZRS und Aushub Widerlager",
+      "durationDays": 5
+    },
+    "Phase 9": {
+      "description": "Erstellung Bodenplatte Widerlager",
+      "durationDays": 5
+    },
+    "Phase 10": {
+      "description": "Erstellung Wände Widerlager",
+      "durationDays": 5
+    },
+    "Phase 11": {
+      "description": "Schüttung Rampen Langsamverkehrsverbindung",
+      "durationDays": 10
+    },
+    "Phase 12": {
+      "description": "Montage Brückenlager",
+      "durationDays": 1
+    },
+    "Phase 13": {
+      "description": "Einhub Brücke Langsamverkehrsverbindung",
+      "durationDays": 1
+    },
+    "Phase 14": {
+      "description": "Einbau Deckschicht Langsamverkehrsverbindung",
+      "durationDays": 3
+    },
+    "Phase 15": {
+      "description": "Montage Geländer Widerlager Langsamverkehrsverbindung",
+      "durationDays": 2
+    },
+    "Phase 16": {
+      "durationDays": 6.86,
+      "description": "2026-08-24 01:40"
+    },
+    "Phase 17": {
+      "durationDays": 7,
+      "description": "2026-08-24 03:21"
+    },
+    "Phase 18": {
+      "durationDays": 7,
+      "description": "2026-08-31"
+    },
+    "Phase 19": {
+      "durationDays": 7,
+      "description": "2026-09-07"
+    },
+    "Phase 20": {
+      "description": "Anlagen Oberboden Gesamtprojekt",
+      "durationDays": 5
+    },
+    "Phase 21": {
+      "description": "Entfernung Baustelleneinrichtung",
+      "durationDays": 2
+    },
+    "Phase 22": {
+      "description": "2026-10-26"
+    },
+    "Phase 7.1+7.2+7.3": {
+      "description": "test",
+      "durationDays": 1
+    },
+    "Phase 8.1": {
+      "description": "Erstellung Mikropfähle",
+      "durationDays": 5
+    },
+    "Phase 10.5": {
+      "description": "Hinterfüllung Widerlager",
+      "durationDays": 2
+    },
+    "Phase 11.01": {
+      "description": "Einbau Fundation Langsamverkehrsverbindung",
+      "durationDays": 2
+    },
+    "Phase 11.02": {
+      "description": "Einbau Fundationsschicht Langsamverkehrsverbindung",
+      "durationDays": 1
+    },
+    "Endzustand": {
+      "description": "Endzustand",
+      "durationDays": 0
+    },
+    "Bestand": {
+      "description": "Bestand",
+      "durationDays": 0
+    },
+    "Phase 0.5": {
+      "description": "Einrichtung Baustelleninstallationen",
+      "durationDays": 7
+    },
+    "Phase 7.1": {
+      "description": "Einbau Tragschicht ",
+      "durationDays": 1
+    },
+    "Phase 7.2": {
+      "description": "Einbau Binderschicht Strasse",
+      "durationDays": 1
+    },
+    "Phase 7.3": {
+      "description": "Einbau Deckschicht",
+      "durationDays": 2
+    },
+    "Phase 8.5": {
+      "description": "Anlieferung und Montage Holzbau Nachbargebäude",
+      "durationDays": 2
+    },
+    "Phase 12.5": {
+      "description": "Montage Schutzgerüst für Einhub Brücke Langsamverkehrsverbindung",
+      "durationDays": 3
+    },
+    "Phase 20.5": {
+      "description": "Demontage Schutzgerüst Langsamverkehrsverbindung",
+      "durationDays": 2
+    }
+  },
+  "viewpoint": {
+    "pos": [
+      26.10320797137528,
+      37.13361020986511,
+      65.14383281030686
+    ],
+    "target": [
+      5.4234158702115645,
+      -13.736297494592337,
+      10.738063948107106
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "offset": [
+      39.99999988674536,
+      2.0963878236570554,
+      -39.999999795532226
+    ],
+    "fov": 60
+  }
+}

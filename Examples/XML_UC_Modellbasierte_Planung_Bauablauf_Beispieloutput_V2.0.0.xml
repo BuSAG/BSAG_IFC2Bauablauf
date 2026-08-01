@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="m" filename="" filepath="">
+  <selectionsets>
+    <selectionset name="Bauphase 0" guid="fb9b15f7-fd62-43cf-9848-b3d7fbc9384b">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">0</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 0.5" guid="95b204da-7a71-4f83-bdcb-554583ddf6d7">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">0.5</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 3" guid="574245e4-0577-451a-9822-5ad4e82367c5">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">3</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 4" guid="5b63e7a0-793f-4d60-9516-6712f9f57dc1">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">4</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 6" guid="e8d6a034-ea84-4674-95f3-9f40a63ffecd">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">6</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 7.1" guid="d9f5b8a9-7839-4824-93b8-7c133a2e4d16">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">7.1</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 7.2" guid="583e0059-e415-4233-90fc-048686168e87">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">7.2</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 7.3" guid="c39d77a8-b224-4b44-b163-98eb5e83815b">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">7.3</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 8" guid="55d16071-efe9-4554-b8e6-60f40cab8ab7">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">8</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 8.1" guid="7e87da76-cd47-4788-b409-21539ea873dd">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">8.1</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 8.5" guid="6d9ef14c-e1a1-4537-9d20-08be7bbf3eb2">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">8.5</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 9" guid="ba3ab923-0ae7-4441-80f2-8ef8f7c5b119">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">9</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 10" guid="0ed4ef2f-457d-495b-8333-a9a6082373a1">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">10</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 10.5" guid="86b97851-b584-4629-af82-cf260acdecc5">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">10.5</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 11" guid="0f126df6-a374-49d4-9e61-b974a3e9a0ba">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">11</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 11.01" guid="f8df17c2-2e49-4577-813d-ee938661f6ba">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">11.01</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 11.02" guid="ec6dabdb-a923-4618-a87c-8ff28caa6dcd">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">11.02</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 12" guid="49a62a44-7e66-44ca-a3ed-86212d75a43c">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">12</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 12.5" guid="faad5976-7c4c-4d2e-a39c-b538013d86fd">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">12.5</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 13" guid="7b1c453d-57b3-48af-a7c3-1996070da9a9">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">13</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 14" guid="94b00d26-4b39-43b8-b345-a4219c13601e">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">14</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 15" guid="c1e9a8be-e8d4-4616-b200-1fe3a6c23c0c">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">15</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Bauphase 20" guid="b87b9774-0698-48e0-babd-a25026f2b3d3">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Bauphase">Bauphase</name>
+            </property>
+            <value>
+              <data type="wstring">20</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Rueckbauphase 1" guid="cd321538-ab14-4435-98ef-894c065a7cdf">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Rueckbauphase">Rueckbauphase</name>
+            </property>
+            <value>
+              <data type="wstring">1</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Rueckbauphase 2" guid="d4ff7b03-6268-46af-8ee2-33dfe5c0002e">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Rueckbauphase">Rueckbauphase</name>
+            </property>
+            <value>
+              <data type="wstring">2</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Rueckbauphase 8" guid="e67e3dac-b4ef-4ecf-b38e-9edde42df3ac">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Rueckbauphase">Rueckbauphase</name>
+            </property>
+            <value>
+              <data type="wstring">8</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Rueckbauphase 20.5" guid="c91d05cf-909e-46ff-93ee-ae4c23fa2a59">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Rueckbauphase">Rueckbauphase</name>
+            </property>
+            <value>
+              <data type="wstring">20.5</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Rueckbauphase 21" guid="7a5ba106-50a5-4f95-9b91-b09e7f6edd55">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="equals" flags="0">
+            <category>
+              <name internal="lcatfconsumer_CH_Ing_Uebergeordnet_tab">CH_Ing_Uebergeordnet</name>
+            </category>
+            <property>
+              <name internal="lcatfconsumer_parameter_Rueckbauphase">Rueckbauphase</name>
+            </property>
+            <value>
+              <data type="wstring">21</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+  </selectionsets>
+</exchange>
