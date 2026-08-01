@@ -2,7 +2,7 @@
 
 **Titel DE:** Modellbasierte Planung Bauablauf
 **Titel EN:** Modelbased construction sequencing
-**Version:** 2.0.0
+**Version:** 2.0.0 --> Vorgänger https://github.com/BuSAG/BSAG_IFC2Bauzustand
 
 **Kurztext:**
 Der Use Case ermöglicht die Darstellung von Bauzuständen in IFC-Modellen basierend auf Merkmalswerten (Properties) unter Verwendung der heute gängigen Darstellungskonvention von Bauphasenplänen.
@@ -121,6 +121,6 @@ Umgesetzt wird der Use Case mit dem Modell-Viewer BIMcollab ZOOM und dem eigens 
 
 **BIMcollab ZOOM:** Visualisierung der Bauzustände über SmartViews (phasengerechte Einfärbung, Filter), BCF-Export sowie Einlesen der Clash Rules (*.bcr) für die phasenweise Kollisionsprüfung.
 
-**BSAG_IFC2Bauzustand:** Browserbasierte HTML-Applikation (lokal lauffähig), liest IFC2x3/IFC4.0/IFC4.3 und stellt die Bauzustände in einer interaktiven 3D-Vorschau mit Phasen-Zeitstrahl dar. Erzeugt sämtliche unter «Lieferleistung / Output» genannten Dateien. Weitere Funktionen: Auswahl von Merkmalen und Merkmalsgruppen inkl. PSet-Suche, Phasen-Extraktion aus Textattributen, Phasen-Offset, mehrsprachige Oberfläche (DE/EN/FR/IT), Dark Mode sowie Speichern/Laden der Projekteinstellungen (JSON/CSV). Verlinkt über das UCM von Bauen digital Schweiz (BdCH), Bezug via GitHub (https://github.com/BuSAG/BSAG_IFC2Bauzustand).
+**BSAG_IFC2Bauablauf:** Browserbasierte HTML-Applikation (lokal lauffähig), liest IFC2x3/IFC4.0/IFC4.3 und stellt die Bauzustände in einer interaktiven 3D-Vorschau mit Phasen-Zeitstrahl dar. Erzeugt sämtliche unter «Lieferleistung / Output» genannten Dateien. Weitere Funktionen: Auswahl von Merkmalen und Merkmalsgruppen inkl. PSet-Suche, Phasen-Extraktion aus Textattributen, Phasen-Offset, mehrsprachige Oberfläche (DE/EN/FR/IT), Dark Mode sowie Speichern/Laden der Projekteinstellungen (JSON/CSV). Verlinkt über das UCM von Bauen digital Schweiz (BdCH), Bezug via GitHub (https://github.com/BuSAG/BSAG_IFC2Bauablauf).
 
 **Autodesk Navisworks:** Ergänzende Visualisierung über die importierten Searchsets (*.xml) – z. B. phasenweise Sichtbarkeitssteuerung oder Zuordnung zu Vorgängen einer 4D-Simulation. Die TimeLiner-Aufgabenliste (*.csv) lässt sich als Datenquelle importieren, sodass die Vorgänge direkt den gleichnamigen Suchsets zugeordnet werden können.
