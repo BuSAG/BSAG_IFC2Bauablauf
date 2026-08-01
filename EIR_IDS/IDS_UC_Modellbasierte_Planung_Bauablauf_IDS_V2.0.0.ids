@@ -1,0 +1,120 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--IDS created by Datacomp IDS Maker-->
+  <ids:info>
+    <ids:title>UC_Modellbasierte_Planung_Bauablauf</ids:title>
+    <ids:copyright>B+S AG, Bern</ids:copyright>
+    <ids:version>V2.0.0</ids:version>
+    <ids:description>Informationsanforderungen fuer den UseCase der modellbasierten Bauablaufplanung. Geprueft werden die Merkmale (Propertys) "Bauphase" und "Rueckbauphase" (PropertySet CH_Ing_Uebergeordnet, IFCREAL, Wert &gt;= 0) sowie das optionale Merkmal (Property) "Status" (IFCLABEL; falls vorhanden zulaessige Werte: Baustelleneinrichtung, Bauhilfsmassnahme, Drittprojekt). Die Pruefung gilt fuer die gaengigen physischen IFC-Entitaeten (inkl. IfcBuildingElementProxy, IfcSystem, IfcElementAssembly, IfcMember). Wird die Werteliste des Merkmals "Status" projektspezifisch erweitert, ist diese Enumeration entsprechend anzupassen.</ids:description>
+    <ids:author>info@bs-ing.ch</ids:author>
+    <ids:date>2026-06-15</ids:date>
+    <ids:purpose>Definition und Pruefung der attributiven Informationsanforderungen fuer den UseCase "Modellbasierte Planung Bauablauf". Die IDS dient der regelbasierten attributiven Modellpruefung (Stufe 1) vor der Erzeugung der Lieferobjekte; die phasenabhaengige Kollisionspruefung (Stufe 2) erfolgt nachgelagert in BIMcollab o.ae.</ids:purpose>
+    <ids:milestone>Alle Projektphasen</ids:milestone>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" name="UC_Modellbasierte_Planung_Bauablauf" identifier="Bauphase" instructions="Eingabe Bauphase Bauteil, 0=Bestand" description="Pruefung Vorhandensein der Merkmale (Propertys) &quot;Bauphase&quot; und &quot;Rueckbauphase&quot; an den gaengigen physischen IFC-Entitaeten">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>GlobalId</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required" instructions="Pruefung Vorhandensein des Merkmals (Property) &quot;Bauphase&quot;" dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>CH_Ing_Uebergeordnet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Bauphase</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:double">
+              <xs:minInclusive value="0" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+        <ids:property cardinality="required" instructions="Pruefung Vorhandensein des Merkmals (Property) &quot;Rueckbauphase&quot;" dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>CH_Ing_Uebergeordnet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Rueckbauphase</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:double">
+              <xs:minInclusive value="0" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" name="UC_Modellbasierte_Planung_Bauablauf_Status" identifier="Status" instructions="Optionale Kennzeichnung von Bauteilen mit Sonderstatus; ueberlagert die phasenbasierte Einfaerbung" description="Pruefung der zulaessigen Werte des optionalen Merkmals (Property) &quot;Status&quot; (Wertekontrolle nur, falls das Merkmal vorhanden ist)">
+      <ids:applicability minOccurs="0" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCFOOTING" />
+              <xs:enumeration value="IFCPILE" />
+              <xs:enumeration value="IFCBEAM" />
+              <xs:enumeration value="IFCCOLUMN" />
+              <xs:enumeration value="IFCMEMBER" />
+              <xs:enumeration value="IFCPLATE" />
+              <xs:enumeration value="IFCSLAB" />
+              <xs:enumeration value="IFCWALL" />
+              <xs:enumeration value="IFCWALLSTANDARDCASE" />
+              <xs:enumeration value="IFCCURTAINWALL" />
+              <xs:enumeration value="IFCRAMP" />
+              <xs:enumeration value="IFCRAMPFLIGHT" />
+              <xs:enumeration value="IFCSTAIR" />
+              <xs:enumeration value="IFCSTAIRFLIGHT" />
+              <xs:enumeration value="IFCROOF" />
+              <xs:enumeration value="IFCRAILING" />
+              <xs:enumeration value="IFCCOVERING" />
+              <xs:enumeration value="IFCDOOR" />
+              <xs:enumeration value="IFCWINDOW" />
+              <xs:enumeration value="IFCREINFORCINGBAR" />
+              <xs:enumeration value="IFCREINFORCINGMESH" />
+              <xs:enumeration value="IFCTENDON" />
+              <xs:enumeration value="IFCTENDONANCHOR" />
+              <xs:enumeration value="IFCMECHANICALFASTENER" />
+              <xs:enumeration value="IFCFASTENER" />
+              <xs:enumeration value="IFCDISCRETEACCESSORY" />
+              <xs:enumeration value="IFCBUILDINGELEMENTPART" />
+              <xs:enumeration value="IFCELEMENTASSEMBLY" />
+              <xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+              <xs:enumeration value="IFCSYSTEM" />
+              <xs:enumeration value="IFCDISTRIBUTIONELEMENT" />
+              <xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+              <xs:enumeration value="IFCFLOWSEGMENT" />
+              <xs:enumeration value="IFCFLOWFITTING" />
+              <xs:enumeration value="IFCFLOWTERMINAL" />
+              <xs:enumeration value="IFCFLOWCONTROLLER" />
+              <xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+              <xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+              <xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+              <xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+              <xs:enumeration value="IFCTRANSPORTELEMENT" />
+            </xs:restriction>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="optional" instructions="Optional; falls vorhanden nur zulaessige Werte: Baustelleneinrichtung, Bauhilfsmassnahme, Drittprojekt. Bei projektspezifischer Erweiterung der Werteliste ist diese Enumeration anzupassen." dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>CH_Ing_Uebergeordnet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Status</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Baustelleneinrichtung" />
+              <xs:enumeration value="Bauhilfsmassnahme" />
+              <xs:enumeration value="Drittprojekt" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>
