@@ -8,7 +8,7 @@ Independently developed tool for model-based visualization of construction state
 
 The related use case «Modelbased construction sequencing» is part of the buildingSMART Use Case Management (UCM).
 
-🔗 ucm.buildingsmart.org
+🔗 [ucm.buildingsmart.org](https://ucm.buildingsmart.org/de/use-cases/3515/de)
 
 ## Beschreibung
 
